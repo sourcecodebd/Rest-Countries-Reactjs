@@ -12,8 +12,8 @@ const Countries = () => {
     }, []);
     return (
         <div>
-            <a style={{ textDecoration: 'none', color: 'inherit' }} href="/"><h1 style={{ paddingTop: '20px' }}>Travelling Around The World</h1></a>
-            <h3>Number of Countries: {countries.length}</h3>
+            <a style={{ textDecoration: 'none', color: 'inherit' }} href="/"><h1 className="pt-5 py-2" style={{ paddingTop: '20px' }}>Travelling Around The World</h1></a>
+            <h3 className="pb-2">Number of Countries: {countries.length}</h3>
             <div className="grid">
                 {
                     countries.map(country => console.log(country))
