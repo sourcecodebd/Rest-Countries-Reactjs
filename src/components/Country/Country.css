@@ -1,0 +1,13 @@
+.card{
+    color: cyan;
+    background-color: #282c34;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.img-fluid{
+    height: 200px;
+    width: 100%;
+}
